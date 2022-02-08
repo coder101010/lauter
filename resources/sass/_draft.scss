@@ -1,0 +1,89 @@
+.c-Draft {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    &.container {
+        @include media-breakpoint-down(md) {
+            padding-left: 0;
+            padding-right: 0;
+        }
+    }
+
+    &_compose {
+        display: flex;
+        justify-content: center;
+        margin: auto;
+        width: 100%;
+
+        &-footer {
+            display: flex;
+            justify-content: center;
+            margin-top: 24px;
+            width: 100%;
+        }
+
+    }
+
+    &_cta {
+        background: $bg-darker;
+        border: 1px solid $bg-blue;
+        border-left: 0;
+        cursor: pointer;
+        display: flex;
+        height: 56px;
+        justify-content: center;
+        text-align: center;;
+        width: 56px;
+
+        img, svg {
+            height: auto;
+            max-width: 24px;
+        }
+
+        &.gray {
+            border: 1px solid $gray;
+        }
+
+    }
+
+    &_text {
+        background: $bg-darker;
+        border-radius: 4px 0 0 4px;
+        border: 1px solid $bg-blue;
+        color: $white;
+        min-height: 56px;
+        width: 100%;
+
+        &:focus, &:active {
+            background: $bg-darker;
+            border-color: $bg-blue;
+            color: $white;
+            outline: none;
+        }
+    }
+
+    &_send {
+        border-radius: 0 4px 4px 0;
+    }
+    
+    &_preview {
+        display: flex;
+        justify-content: center;
+    }
+    
+    &_image-uploader {
+        input {
+            display: none;
+        }
+    }
+    
+    &_preview-thumb {
+        img {
+            border: 1px solid $gray;
+            border-right: 0;
+            max-height: 56px;
+            width: auto;
+        }
+    }
+}

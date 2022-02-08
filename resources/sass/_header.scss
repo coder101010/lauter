@@ -1,0 +1,34 @@
+.c-Header {
+    display: flex;
+    padding-top: 24px;
+    justify-content: space-between;
+    width: 100%;
+    
+    &_branding {
+
+        &_cta {
+            font-size: $font-logo;
+            color: $white;
+            font-weight: light;
+
+            &:hover {
+                color: $white;
+                text-decoration: none;
+            }
+        }
+    }
+    
+    &_meta {
+        align-items: center;
+        display: flex;
+        margin-left: 24px;
+
+        &_user {
+            margin: 0 12px;
+        }
+
+        &_cta {
+            margin: 0 12px;
+        }
+    }
+}

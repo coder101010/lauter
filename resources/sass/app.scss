@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
+
+@import '~bootstrap/scss/bootstrap';
+
+// Includes
+@import 'variables';
+@import 'draft';
+@import 'footer';
+@import 'header';
+@import 'messages';
+@import 'overrides';
+
+body {
+    background: $bg-darker;
+    color: $gray;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.c-App {
+    background: $bg-dark;
+}
+
+.c-Composer {
+    padding: 24px 0 12px 0;
+}

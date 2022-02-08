@@ -1,0 +1,30 @@
+.card {
+    a {
+        color: $bg-blue;
+    }
+
+    background-color: $bg-dark;
+    color: $gray;
+    border-color: $bg-darker;
+
+    &-header,
+    &-body,
+    &-footer {
+        border-color: $bg-darker;
+        background-color: $bg-dark;
+    }
+
+    &-body,
+    &-footer {
+        color: $gray;
+    }
+
+    &-header {
+        color: white
+    }
+
+    .btn-primary {
+        background: $bg-blue;
+    }
+
+}

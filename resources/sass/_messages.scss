@@ -1,0 +1,101 @@
+.c-Messages {
+    display: flex;
+    flex-direction: column-reverse;
+    padding: 0 0 12px 0;
+}
+
+.c-Message{
+    animation: fadeIn 2s;
+    flex-direction: column-reverse;
+    margin: 24px 0;
+    width: 100%;
+
+    &.container {
+        @include media-breakpoint-down(md) {
+            padding-left: 0;
+            padding-right: 0;
+        }
+    }
+
+    &_wrapper {
+        width: 100%;
+        
+        @include media-breakpoint-down(md) {
+            flex-direction: column;
+        }
+    }
+
+    &_frame {
+        background: $bg-blue;
+        color: $white;
+    }
+
+    &_body {
+        margin-left: 12px;
+        max-width: 500px;
+
+        @include media-breakpoint-down(md) {
+            margin-left: 0px;
+            width: 100%;
+        }
+
+    }
+    
+    &_avatar {
+        @include media-breakpoint-down(md) {
+            display: none;
+        }
+    }
+
+    &_bio {
+        align-items: center;
+        display: flex;
+        
+        .image {
+            margin-right: 12px;
+            width: 22px;
+
+            .vue-avatar--wrapper {
+                font-size: 14px !important;
+                height: 24px !important;
+                width: 24px !important;
+            }
+
+            @include media-breakpoint-up(md) {
+                display: none;
+            }
+        }
+    }
+
+    &_username {
+        color: $white;
+        font-size: $font-user;
+        font-weight: nromal;
+    }
+
+    &_created {
+        font-size: $font-meta;
+        font-weight: nromal;
+        margin-top: 2px;
+
+        @include media-breakpoint-down(md) {
+            text-align: right;
+        }
+    }
+
+    &_attachment {
+        border-radius: $attachment-border;
+        margin-bottom: 8px;
+        max-height: 245px;
+        max-width: 100%;
+        width: auto;
+    }
+
+    &_text {
+        font-size: $font-text;
+        a {
+            color: $white;
+            text-decoration: underline;
+        }
+    }
+}

@@ -1,0 +1,65 @@
+// Body
+$body-bg: rgb(21, 32, 43);
+
+$font-family-sans-serif: 'Roboto', sans-serif;
+$font-size-base: 0.9rem;
+$line-height-base: 1.6;
+
+// Viewports
+$tablet: 1024px;
+$mobile: 768px;
+
+// Colors
+$blue: #3490dc;
+$indigo: #6574cd;
+$purple: #9561e2;
+$pink: #f66d9b;
+$red: #e3342f;
+$orange: #f6993f;
+$yellow: #ffed4a;
+$green: #38c172;
+$teal: #4dc0b5;
+$cyan: #6cb2eb;
+
+// App Colors
+$bg-darker: rgb(21, 32, 43);
+$bg-dark: rgb(25, 39, 52);
+$bg-blue: rgb(29, 155, 240);
+
+// App Text Colors
+$gray: rgb(136, 153, 166);
+$white: #fff;
+
+// App Font Sizes
+$font-meta: 12px;
+$font-text: 14px;
+$font-user: 16px;
+$font-logo: 32px;
+
+$attachment-border: 4px;
+
+// Animations
+@keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
+  
+@-moz-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
+  
+@-webkit-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
+  
+@-o-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
+  
+@-ms-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
