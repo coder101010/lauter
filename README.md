@@ -37,9 +37,27 @@ AWS S3
     php artisan serve
     ```
 
+
+## Chat Homepage
+```~/chat```
+
+## Login Page
+```~/login```
+
+## Register Page
+```~/register```
+
+
 ## Local URL
 ```http://127.0.0.1:8000/```
 
+
+## Production Stack
+PHP (8.0.15)
+MySQL (8)
+Composer (2.2.5)
+Apache (2.4.52)
+Nginx (1.20.2)
 
 ## To clean up the old message
 Set up a cron job or run the following to execute the command manually
