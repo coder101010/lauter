@@ -31,6 +31,7 @@ window.axios.defaults.headers.common['X-Requested-With'] = 'XMLHttpRequest';
 
  import Echo from 'laravel-echo';
 
+ /* Disable Pusher for now 
  window.Pusher = require('pusher-js');
 
  window.Echo = new Echo({
@@ -39,3 +40,4 @@ window.axios.defaults.headers.common['X-Requested-With'] = 'XMLHttpRequest';
      cluster: process.env.MIX_PUSHER_APP_CLUSTER,
      forceTLS: false
  });
+ */
