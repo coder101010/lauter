@@ -1,14 +1,21 @@
 /*!
-  * Bootstrap v4.6.0 (https://getbootstrap.com/)
+	 * The buffer module from node.js, for the browser.
+	 *
+	 * @author   Feross Aboukhadijeh <feross@feross.org> <http://feross.org>
+	 * @license  MIT
+	 */
+
+/*!
+  * Bootstrap v4.6.1 (https://getbootstrap.com/)
   * Copyright 2011-2021 The Bootstrap Authors (https://github.com/twbs/bootstrap/graphs/contributors)
   * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
   */
 
 /*!
- * Pusher JavaScript Library v7.0.3
+ * Pusher JavaScript Library v4.3.1
  * https://pusher.com/
  *
- * Copyright 2020, Pusher
+ * Copyright 2017, Pusher
  * Released under the MIT licence.
  */
 
