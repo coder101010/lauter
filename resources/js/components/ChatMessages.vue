@@ -16,7 +16,7 @@
                     <div class="c-Message_text">{{ message.message }}</div>
                   </div>
                 </div>
-                <div class="c-Message_created">{{ message.created_at | moment('from', 'now') }}</div>
+                <div v-if="message.created_at" class="c-Message_created">{{ message.created_at | moment('from', 'now') }}</div>
             </div>
         </div>
       </div>
