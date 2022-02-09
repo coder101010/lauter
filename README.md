@@ -66,3 +66,12 @@ Nginx (1.20.2)
 To update the number of messages and assets you wish to delete, update the following variable in .env
 
 ```MSG_HISTORY```
+
+## Loal Testing
+Please comment out line 27 at `app/Providers/AppServiceProvider.php` for local testing over HTTP.
+
+# Required Services and Env Variables
+AWS
+Pusher
+and
+BROADCAST_DRIVER=pusher
