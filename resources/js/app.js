@@ -1,5 +1,6 @@
 require('./bootstrap');
 import linkify from 'vue-linkify'
+import Echo from 'laravel-echo';
 
 window.Vue = require('vue').default;
 
@@ -18,6 +19,7 @@ const app = new Vue({
 
     created() {
         this.fetchMessages();
+
         window.Echo.private('chat')
         .listen('MessageSent', (e) => {
           this.messages.push({
