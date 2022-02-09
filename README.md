@@ -60,7 +60,7 @@ Apache (2.4.52)
 Nginx (1.20.2)
 
 ## To clean up the old message
-Set up a cron job or run the following to execute the command manually
+```0 * * * * php /var/www/{APPNAME}/artisan schedule:run 1>> /dev/null 2>&1```
 ```php artisan schedule:run >> /dev/null 2>&1```
 
 To update the number of messages and assets you wish to delete, update the following variable in .env
