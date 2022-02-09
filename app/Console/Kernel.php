@@ -23,8 +23,7 @@ class Kernel extends ConsoleKernel
     protected function schedule(Schedule $schedule)
     {
 
-        $schedule->command('hour:update')
-        ->hourly();
+        $schedule->command('hour:update')->everyMinute();
                 
     }
 
